@@ -74,6 +74,9 @@ article p {
 	overflow-y: scroll;
 	border: 1px solid lightgray;
 }
+.language-button img:first-of-type {
+	margin-right: 10px;
+}
 .visitorPageButton {
 	color: whitesmoke;
 	text-decoration: none;
@@ -447,7 +450,12 @@ article p {
 }
 
 /* Header*/
-
+.language-button {
+	position: absolute;
+	width: 100px;
+	right: 10px;
+	top: 15px;
+}
 /* Navigation*/
 .hero-nav {
 	max-width: 1140px;
@@ -598,6 +606,11 @@ a span {
 	}
 }
 @media (max-width: 992px) {
+	.language-button {
+		position: absolute;
+		left: 20px;
+		top: 15px;
+	}
 	.userFromWrapper {
 		width: 85%;
 	}
